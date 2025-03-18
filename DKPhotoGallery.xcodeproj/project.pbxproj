@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B373D6D2D89D4930064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D6C2D89D4930064809B /* PrivacyInfo.xcprivacy */; };
+		3B373D742D8A02A90064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */; };
 		8B40015C2274F13200061553 /* SDWebImageFLPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40015A2274F13200061553 /* SDWebImageFLPlugin.framework */; };
 		8B40015D2274F13200061553 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40015B2274F13200061553 /* FLAnimatedImage.framework */; };
 		9C565E32216B43DA00A16B22 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C565E2E216B43DA00A16B22 /* Base.lproj */; };
@@ -60,7 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B373D6C2D89D4930064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resource/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		8B40015A2274F13200061553 /* SDWebImageFLPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageFLPlugin.framework; path = Carthage/Build/iOS/SDWebImageFLPlugin.framework; sourceTree = "<group>"; };
 		8B40015B2274F13200061553 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAnimatedImage.framework; path = Carthage/Build/iOS/FLAnimatedImage.framework; sourceTree = "<group>"; };
 		9C17CC0E215B39C1001A6BCA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -128,7 +128,6 @@
 		9C565E27216B42AE00A16B22 /* DKPhotoGalleryBundle */ = {
 			isa = PBXGroup;
 			children = (
-				3B373D6C2D89D4930064809B /* PrivacyInfo.xcprivacy */,
 				9C565E2E216B43DA00A16B22 /* Base.lproj */,
 				9C565E31216B43DA00A16B22 /* en.lproj */,
 				9C565E2F216B43DA00A16B22 /* Images.xcassets */,
@@ -177,6 +176,7 @@
 		9CDF249E215A471500DF2C79 /* DKPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
+				3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */,
 				9CDF249F215A471500DF2C79 /* DKPhotoPreviewFactory.swift */,
 				9CDF24A0215A471500DF2C79 /* Transition */,
 				9CDF24A5215A471500DF2C79 /* DKPhotoGallery.swift */,
@@ -353,7 +353,6 @@
 				9C565E35216B43DA00A16B22 /* en.lproj in Resources */,
 				9C565E32216B43DA00A16B22 /* Base.lproj in Resources */,
 				9C565E34216B43DA00A16B22 /* zh-Hans.lproj in Resources */,
-				3B373D6D2D89D4930064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C565E33216B43DA00A16B22 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +361,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B373D742D8A02A90064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C565E39216B44F400A16B22 /* DKPhotoGallery.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
