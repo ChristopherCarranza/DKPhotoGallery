@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B373D742D8A02A90064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */; };
+		3B373D782D8B265F0064809B /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */; };
 		8B40015C2274F13200061553 /* SDWebImageFLPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40015A2274F13200061553 /* SDWebImageFLPlugin.framework */; };
 		8B40015D2274F13200061553 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40015B2274F13200061553 /* FLAnimatedImage.framework */; };
 		9C565E32216B43DA00A16B22 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C565E2E216B43DA00A16B22 /* Base.lproj */; };
@@ -58,6 +58,19 @@
 			remoteInfo = DKPhotoGalleryBundle;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3B373D772D8B26550064809B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				3B373D782D8B265F0064809B /* PrivacyInfo.xcprivacy in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resource/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
@@ -299,6 +312,7 @@
 				9CDF248A215A46CE00DF2C79 /* Sources */,
 				9CDF248B215A46CE00DF2C79 /* Frameworks */,
 				9CDF248C215A46CE00DF2C79 /* Resources */,
+				3B373D772D8B26550064809B /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -361,7 +375,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B373D742D8A02A90064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C565E39216B44F400A16B22 /* DKPhotoGallery.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
