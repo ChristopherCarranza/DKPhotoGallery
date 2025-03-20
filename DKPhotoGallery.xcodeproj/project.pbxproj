@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B373D782D8B265F0064809B /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */; };
+		3B373D7E2D8C46CB0064809B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3B373D7D2D8C46CB0064809B /* PrivacyInfo.xcprivacy */; };
+		3B373D7F2D8C46DA0064809B /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3B373D7D2D8C46CB0064809B /* PrivacyInfo.xcprivacy */; };
 		8B40015C2274F13200061553 /* SDWebImageFLPlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40015A2274F13200061553 /* SDWebImageFLPlugin.framework */; };
 		8B40015D2274F13200061553 /* FLAnimatedImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B40015B2274F13200061553 /* FLAnimatedImage.framework */; };
 		9C565E32216B43DA00A16B22 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9C565E2E216B43DA00A16B22 /* Base.lproj */; };
@@ -66,14 +67,14 @@
 			dstPath = "";
 			dstSubfolderSpec = 7;
 			files = (
-				3B373D782D8B265F0064809B /* PrivacyInfo.xcprivacy in CopyFiles */,
+				3B373D7F2D8C46DA0064809B /* PrivacyInfo.xcprivacy in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Resource/Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3B373D7D2D8C46CB0064809B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		8B40015A2274F13200061553 /* SDWebImageFLPlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImageFLPlugin.framework; path = Carthage/Build/iOS/SDWebImageFLPlugin.framework; sourceTree = "<group>"; };
 		8B40015B2274F13200061553 /* FLAnimatedImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLAnimatedImage.framework; path = Carthage/Build/iOS/FLAnimatedImage.framework; sourceTree = "<group>"; };
 		9C17CC0E215B39C1001A6BCA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -189,7 +190,7 @@
 		9CDF249E215A471500DF2C79 /* DKPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				3B373D732D8A02A90064809B /* PrivacyInfo.xcprivacy */,
+				3B373D7D2D8C46CB0064809B /* PrivacyInfo.xcprivacy */,
 				9CDF249F215A471500DF2C79 /* DKPhotoPreviewFactory.swift */,
 				9CDF24A0215A471500DF2C79 /* Transition */,
 				9CDF24A5215A471500DF2C79 /* DKPhotoGallery.swift */,
@@ -375,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B373D7E2D8C46CB0064809B /* PrivacyInfo.xcprivacy in Resources */,
 				9C565E39216B44F400A16B22 /* DKPhotoGallery.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
